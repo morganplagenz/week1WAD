@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LoginForm from './components/LoginForm';
+import Navigation from './components/Navigation';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navigation />
+    <LoginForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
